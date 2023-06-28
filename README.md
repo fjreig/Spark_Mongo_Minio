@@ -1,4 +1,5 @@
-## Docker Stacks
+# Spark MongoDB Minio
 
 
-docker compose up -d
+### 1. Levantar los contenedores
+```docker compose up -d```
