@@ -18,9 +18,9 @@
 
 ### 3. Ejecutamos los siguientes Scripts
 
-| Microservicio      | Descripcion |  GUI |
-| :----:             |    :----:   |    :----:   |
-| InsertMongo    | Servidor Kafka donde se guardan los datos        | |
-| QueryMongo   | Plataforma web para monitorizar el servidor Kafka        | http://localhost:8080 |
-| InsertMinio   | Servidor de connectores sink y source        | |
-| ReadMinio     | BBDD donde se almacenan los datos para representarlos en Kibana        | http://localhost:5601 |
+| Script      | Descripcion | 
+| :----:             |    :----:   |
+| InsertMongo    | El Script lee un fichero json con información de varios vuelos y lo almacena en MongoDB        | 
+| QueryMongo   | Query mediante SparkSQL a la base de datos MongoDB y lo almacena en un fichero parquet        |
+| InsertMinio   | Escritura mediante Spark en formato json en Minio        |
+| ReadMinio     | Lectura mediante Spark de un fichero json en Minio       |
