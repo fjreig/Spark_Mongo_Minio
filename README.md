@@ -24,3 +24,7 @@
 | QueryMongo   | Query mediante SparkSQL a la base de datos MongoDB y lo almacena en un fichero parquet        |
 | InsertMinio   | Escritura mediante Spark en formato json en Minio        |
 | ReadMinio     | Lectura mediante Spark de un fichero json en Minio       |
+
+### 4. Visualizar documentos guardados en Minio
+
+```http://localhost:9000```
