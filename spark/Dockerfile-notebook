@@ -1,6 +1,0 @@
-FROM jupyter/pyspark-notebook:spark-3.2.1
-
-RUN pip install delta-spark==1.2.0
-RUN pip install pymongo
-
-COPY ./jars/ /usr/local/spark/jars/
